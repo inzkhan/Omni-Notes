@@ -4,7 +4,7 @@ dist: trusty
 install: true
 addons:
   sonarcloud:
-    organization: federicoiosue-github
+    organization: Inzikhan
     token: $SONAR_TOKEN
     branches:
     - develop
