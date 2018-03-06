@@ -2,12 +2,6 @@ sudo: true
 language: android
 dist: trusty
 install: true
-addons:
-  sonarcloud:
-    organization: Inzikhan
-    token: $SONAR_TOKEN
-    branches:
-    - develop
 jdk:
 - oraclejdk8
 branches:
